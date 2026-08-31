@@ -196,10 +196,11 @@ h2 { font-size: clamp(40px, 11vw, 52px); }
 }
 
 .letter-paper {
-  position: absolute;
+  position: relative;
   z-index: 3;
-  left: 50%;
-  bottom: 88px;
+  left: auto;
+  bottom: auto;
+  margin-top: 20px;
   width: min(92%, 350px);
   max-height: 0;
   overflow-y: auto;
